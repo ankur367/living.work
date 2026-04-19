@@ -1,230 +1,268 @@
-<!DOCTYPE html>
-
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Living.work Kasauli | The Sanctuary Awaits</title>
-<!-- Typography -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<!-- Icons -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<!-- Tailwind CSS -->
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Living.work Kasauli | The Sanctuary Awaits 2027</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "error": "#ba1a1a",
-                    "on-tertiary-fixed": "#171d15",
-                    "on-primary": "#ffffff",
-                    "secondary-fixed-dim": "#ffb59f",
-                    "primary-fixed": "#d7e7d1",
-                    "inverse-primary": "#bbcbb6",
-                    "on-error-container": "#93000a",
-                    "inverse-on-surface": "#f3f0ea",
-                    "surface-container-lowest": "#ffffff",
-                    "surface-container-high": "#ebe8e2",
-                    "on-surface-variant": "#444842",
-                    "surface-container": "#f0eee8",
-                    "tertiary-fixed": "#dde5d7",
-                    "surface-container-low": "#f6f3ed",
-                    "surface-container-highest": "#e5e2dc",
-                    "surface-variant": "#e5e2dc",
-                    "tertiary-container": "#90988c",
-                    "tertiary": "#596056",
-                    "primary-container": "#8a9a86",
-                    "on-tertiary-fixed-variant": "#42493f",
-                    "on-secondary-fixed-variant": "#723521",
-                    "on-primary-fixed-variant": "#3c4b3a",
-                    "secondary-fixed": "#ffdbd0",
-                    "background": "#fcf9f3",
-                    "on-tertiary": "#ffffff",
-                    "on-primary-container": "#243222",
-                    "on-error": "#ffffff",
-                    "tertiary-fixed-dim": "#c1c9bc",
-                    "on-secondary-container": "#783925",
-                    "surface-tint": "#536251",
-                    "surface-dim": "#dcdad4",
-                    "on-secondary-fixed": "#3a0b00",
-                    "error-container": "#ffdad6",
-                    "on-background": "#1c1c18",
-                    "primary": "#536251",
-                    "primary-fixed-dim": "#bbcbb6",
-                    "on-secondary": "#ffffff",
-                    "inverse-surface": "#31312d",
-                    "secondary-container": "#fda58b",
-                    "on-surface": "#1c1c18",
-                    "on-primary-fixed": "#111f11",
-                    "outline": "#747871",
-                    "surface-bright": "#fcf9f3",
-                    "secondary": "#904b36",
-                    "on-tertiary-container": "#293027",
-                    "outline-variant": "#c4c8bf",
-                    "surface": "#fcf9f3"
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#536251",
+                        "secondary-fixed": "#ffdbd0",
+                        "on-secondary-fixed-variant": "#723521",
+                        "surface": "#fcf9f3",
+                        "primary-fixed-dim": "#bbcbb6",
+                        "on-background": "#1c1c18",
+                        "secondary": "#904b36",
+                        "on-secondary": "#ffffff",
+                        "surface-variant": "#e5e2dc",
+                        "on-secondary-fixed": "#3a0b00",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#3c4b3a",
+                        "surface-bright": "#fcf9f3",
+                        "inverse-surface": "#31312d",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "primary": "#536251",
+                        "inverse-primary": "#bbcbb6",
+                        "surface-container-high": "#ebe8e2",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed-dim": "#c1c9bc",
+                        "outline-variant": "#c4c8bf",
+                        "on-secondary-container": "#783925",
+                        "on-primary-fixed": "#111f11",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#444842",
+                        "secondary-container": "#fda58b",
+                        "on-tertiary-container": "#293027",
+                        "outline": "#747871",
+                        "background": "#fcf9f3",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#f3f0ea",
+                        "on-tertiary-fixed": "#171d15",
+                        "on-tertiary-fixed-variant": "#42493f",
+                        "surface-dim": "#dcdad4",
+                        "surface-container-highest": "#e5e2dc",
+                        "primary-fixed": "#d7e7d1",
+                        "on-surface": "#1c1c18",
+                        "primary-container": "#8a9a86",
+                        "on-primary-container": "#243222",
+                        "tertiary": "#596056",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed": "#dde5d7",
+                        "surface-container": "#f0eee8",
+                        "surface-container-low": "#f6f3ed",
+                        "secondary-fixed-dim": "#ffb59f",
+                        "tertiary-container": "#90988c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                },
             },
-            "borderRadius": {
-                    "DEFAULT": "1rem",
-                    "lg": "2rem",
-                    "xl": "3rem",
-                    "full": "9999px"
-            },
-            "fontFamily": {
-                    "headline": [ "Noto Serif" ],
-                    "body": [ "Plus Jakarta Sans" ],
-                    "label": [ "Plus Jakarta Sans" ]
-            }
-          },
-        },
-      }
+        }
     </script>
 <style>
-      .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-      }
-      .editorial-text-shadow {
-        text-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      }
-      .blur-vignette {
-        mask-image: radial-gradient(circle, black 60%, transparent 100%);
-      }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px rgba(44, 51, 42, 0.06);
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+        }
     </style>
 </head>
-<body class="bg-background text-on-background font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<body class="bg-background text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
 <!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-xl">
-<div class="flex justify-center items-center py-10 px-12 w-full mx-auto max-w-7xl">
-<div class="flex-1 hidden md:flex items-center gap-8">
-<a class="text-[#904B36] font-semibold border-b border-[#904B36] font-serif text-lg tracking-widest uppercase transition-opacity duration-300" href="#">Home</a>
-<a class="text-[#536251] opacity-70 font-serif text-lg tracking-widest uppercase hover:opacity-100 transition-opacity duration-300" href="#">Membership</a>
+<nav class="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-7xl z-50 rounded-full px-8 py-3 bg-stone-50/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-2xl shadow-stone-900/5 flex justify-between items-center">
+<div class="flex items-center gap-4">
+<img alt="Living.work Kasauli Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0uh3V21_lScN5TQ-d0Wr9aV1Iuumh6ETeRcuCJDMSeOGFBFsR-6fMdPQ5foYHES_Ao9VlU4fhq8Ul5rjEQGbWWcByKumqZUNyE3u-WEFfNbI2twv59LI2pNIwGqPBMDmI2BdDYTh-ocpWTVtPsMEGY4kDXI19LstNczdRm4Z-AEAYPP0oDYSHfBUJFCEK3zH_vO538xcqLFbqF2I62OnoUosO7CluUJRuKNOZc8vuN-ImrvYlQojJauvza8L_OtRb5rm9ZJhjfIp3A" style="">
+<span class="font-serif text-2xl font-semibold tracking-tighter text-stone-800 dark:text-stone-100" style="">Kasauli</span>
 </div>
-<div class="flex-shrink-0">
-<img alt="Living.work Kasauli Logo" class="w-auto object-contain h-20 brightness-110" src="https://lh3.googleusercontent.com/aida/ADBb0uiQDDprDKzyXFN-6bX0_HuBptNB0RK107oFiv8SBNWm66pSklTPCSE3oMLVjEUwa6hiJMEkWEDIH6_O_DFIWvGXUnHHhRCkyJrT1dNJPimM7k7GUIylhVHuCaFPFJF8AFk1FxFoOhK3N-Ep_ygWiDBnUGd3W8eFHm-Gvfu3h7SXWRWhu_cgvmIugS7RWi9mk3UfMmMTwxUrg_y7OebBjOBBozf-cLwPImCSvhBDpfkbQKRZ5aynLPvg5Sk7W7OOuv0joMlfBcTaWK4"/>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-serif text-lg tracking-tight text-stone-900 dark:text-white border-b-2 border-stone-400 pb-1 transition-all duration-300" href="#" style="">Co-living</a>
+<a class="font-serif text-lg tracking-tight text-stone-50 dark:text-stone-400 hover:text-stone-800 transition-all duration-300" href="#" style="">Co-working</a>
+<a class="font-serif text-lg tracking-tight text-stone-50 dark:text-stone-400 hover:text-stone-800 transition-all duration-300" href="#" style="">Wellness</a>
+<a class="font-serif text-lg tracking-tight text-stone-50 dark:text-stone-400 hover:text-stone-800 transition-all duration-300" href="#" style="">The Ethos</a>
+<a class="font-serif text-lg tracking-tight text-stone-50 dark:text-stone-400 hover:text-stone-800 transition-all duration-300" href="#" style="">Gallery</a>
 </div>
-<div class="flex-1 hidden md:flex justify-end items-center gap-8">
-<a class="text-[#536251] opacity-70 font-serif text-lg tracking-widest uppercase hover:opacity-100 transition-opacity duration-300" href="#">Contact</a>
-<button class="bg-primary text-on-primary px-8 py-3 rounded-xl title-sm hover:scale-95 transition-transform duration-200 ease-in-out">Request an Invite</button>
-</div>
-</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-label text-sm font-medium tracking-wide transition-all duration-300 hover:opacity-80 active:scale-95" style="">
+            Request Invite
+        </button>
 </nav>
 <!-- Hero Section -->
 <header class="relative h-screen w-full flex items-center justify-center overflow-hidden">
 <div class="absolute inset-0 z-0">
-<img alt="Himalayan mountain peak at dawn" class="w-full h-full object-cover" data-alt="cinematic wide angle shot of jagged Himalayan mountain peaks at first light with soft orange and blue mist in the valleys" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqQyhB6xGtPO6YX-hu_ZFFL9T6y0XXS9pSXmZux6o_pTu36My1ghaQd0j9WU12ckLWVV5KYUd489nz4M2lxpJN5wcPwHeRSIB4HctjKqLQb28OjwYO4ylJ1nDdQQNewqR-ffJFfi65VPs7HluApWL6vsZIcYfWQJmPc4qUNt8aOzvIIMHAnSVBmOyd5S77VTxKIVJ8wzH_NdXyMN5CLj8WoAVH6knc3oMpfecM8tc9v0Fx28fwf4uGjRKcQs-4aWhzfSXhBxLqhZiq"/>
-<div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-background"></div>
+<img class="w-full h-full object-cover scale-105" data-alt="Modern brutalist architecture sanctuary in Kasauli mountains at dusk, warm interior lights glowing against cool mountain mist and pine trees" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaVbeaY6SExSLLn6X-rSidQyUujx6cPN0RUoKTWMnkOActcQJI2v3vuPmgsqc5IlBCsXkTmkZWqFEv6yz21rzbkYb3QENdPtMUKBoBQf1M7YW2-YXWn2mQZ6YjJ6N0pCU4kT_woC4ahb0B5ARIcqxIrfZw1n5NIWyRgY9BAW7joTxXH1xPF5M-dyXt_5OnZPFb8eXLYIIZtWeXBaAh3l-ePjPwgYJig9I9_67WLDWBG7icnjQo5TiXoGuimizjtfA1PidvJAr6RpDL" style="">
+<div class="absolute inset-0 bg-stone-900/40"></div>
 </div>
-<div class="relative z-10 text-center px-6 max-w-5xl">
-<span class="label-md uppercase tracking-[0.3em] text-white/90 mb-6 block font-label editorial-text-shadow">Himalayas, India</span>
-<h1 class="font-headline text-5xl md:text-8xl text-white font-bold tracking-tight mb-8 editorial-text-shadow">The Sanctuary Awaits.<br/>Kasauli 2027.</h1>
-<p class="font-body text-xl md:text-2xl text-white/90 max-w-2xl mx-auto font-light leading-relaxed editorial-text-shadow">
-                A curated ecosystem for deep work, intentional living, and spiritual rejuvenation.
+<div class="relative z-10 text-center px-6 max-w-4xl">
+<p class="font-label uppercase tracking-[0.2em] text-white/80 mb-6 text-sm" style="">A Himalayan Sanctuary</p>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-white font-bold leading-tight mb-8" style="">
+                The Sanctuary Awaits.<br>
+<span class="italic font-normal" style="">Kasauli 2027.</span>
+</h1>
+<p class="font-body text-xl text-white/90 max-w-2xl mx-auto leading-relaxed mb-12" style="">
+                A destination for the modern itinerant. Designed for deep work, intentional connection, and the luxury of quiet.
             </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<a class="bg-primary text-on-primary px-10 py-4 rounded-xl font-label font-semibold hover:opacity-90 transition-all shadow-xl shadow-stone-900/20" href="#invite" style="">Request Access</a>
+<a class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-4 rounded-xl font-label font-semibold hover:bg-white/20 transition-all" href="#ethos" style="">Explore The Vision</a>
 </div>
-<div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-white/60">
-<span class="label-sm uppercase tracking-widest">Scroll to Explore</span>
-<span class="material-symbols-outlined animate-bounce">keyboard_double_arrow_down</span>
 </div>
 </header>
-<!-- Invitee-Only Section -->
-<section class="py-24 md:py-48 px-6 bg-background">
-<div class="max-w-4xl mx-auto text-center">
-<div class="mb-16">
-<h2 class="font-headline text-4xl md:text-6xl text-primary mb-6">Invitations Only</h2>
-<div class="w-24 h-px bg-secondary/30 mx-auto mb-8"></div>
-<p class="text-tertiary text-lg md:text-xl font-light leading-relaxed">Membership is exclusive and by invitation only. Join our waitlist to be considered for the inaugural 2027 season in the clouds.</p>
+<!-- Services Overview: Editorial Asymmetry -->
+<section class="py-32 px-6 max-w-7xl mx-auto">
+<!-- Co-living -->
+<div class="grid md:grid-cols-12 gap-16 items-center mb-40">
+<div class="md:col-span-7 relative">
+<img class="rounded-xl w-full h-[600px] object-cover editorial-shadow" data-alt="interior of a luxury minimalist bedroom with floor to ceiling windows overlooking the Himalayan valley, warm wood textures and soft linens" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_L9seMqY2yPq_kNFm4-bp-aS3p6CZyHn9vhiUJ2TjhZSxiZ2Tufb9Wi1WharCj4RqsjBTjG2fT6hqfpd4rEY9NxCasoEja_TO3X6Ip6CRWW5OEkI_K_6CkdSX-B18tEzUPfG3Zpk4lMWQJPMXmX7Af6_u4EaYBBchqQ13zus1zijsFHAI1rM8TeBB1m3HhD4BcjnoboxmoJXOWn4r9pXDW5j9FLvM_GiGfTe8HQQTOTdk34PK58EPj9dF8l17F4e2H5nPX4ZnoJ7z" style="">
+<div class="absolute -bottom-10 -right-10 hidden lg:block w-64 h-64 rounded-lg bg-secondary-container/30 backdrop-blur-3xl -z-10"></div>
 </div>
-<div class="relative max-w-md mx-auto">
-<div class="flex flex-col md:flex-row gap-4 p-2 bg-surface-container-low rounded-xl shadow-sm">
-<input class="flex-1 bg-transparent border-none focus:ring-0 px-6 py-4 text-on-surface placeholder:text-outline-variant font-body" placeholder="Email Address" type="email"/>
-<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-medium hover:bg-primary/90 transition-colors whitespace-nowrap">
-                        Request an Invite
-                    </button>
+<div class="md:col-span-5">
+<span class="font-label text-secondary font-bold tracking-widest uppercase text-xs mb-4 block" style="">Residential</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6 leading-tight" style="">Co-living for the Conscious.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8" style="">
+                    More than a room, a retreat. Each private suite is designed with native stone and timber, offering a grounded sanctuary where the silence of the mountains meets modern comfort. Our residential wing balances communal warmth with absolute personal privacy.
+                </p>
+<ul class="space-y-4 font-label text-sm text-primary mb-8">
+<li class="flex items-center gap-3" style=""><span class="material-symbols-outlined text-sm" style="">check_circle</span> Himalayan Valley Views</li>
+<li class="flex items-center gap-3" style=""><span class="material-symbols-outlined text-sm" style="">check_circle</span> Sustainable Passive Design</li>
+<li class="flex items-center gap-3" style=""><span class="material-symbols-outlined text-sm" style="">check_circle</span> Integrated Smart Lighting</li>
+</ul>
 </div>
-<p class="mt-4 text-xs text-outline font-label uppercase tracking-widest">Privacy is our priority. No spam, only sanctuary.</p>
+</div>
+<!-- Co-working -->
+<div class="grid md:grid-cols-12 gap-16 items-center mb-40">
+<div class="md:col-span-5 order-2 md:order-1">
+<span class="font-label text-secondary font-bold tracking-widest uppercase text-xs mb-4 block" style="">Productivity</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6 leading-tight" style="">Work as Ritual.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8" style="">
+                    Our workspace is an architectural ode to focus. High ceilings, panoramic vistas, and dedicated "Deep Work" zones. We provide the infrastructure of a global headquarters in the tranquility of a hillside monastery.
+                </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-6 bg-surface-container-low rounded-lg">
+<h4 class="font-headline text-xl mb-2" style="">1 Gbps</h4>
+<p class="text-xs font-label uppercase text-on-surface-variant" style="">Fiber Connectivity</p>
+</div>
+<div class="p-6 bg-surface-container-low rounded-lg">
+<h4 class="font-headline text-xl mb-2" style="">24/7</h4>
+<p class="text-xs font-label uppercase text-on-surface-variant" style="">Library Access</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-7 order-1 md:order-2">
+<img class="rounded-xl w-full h-[600px] object-cover editorial-shadow" data-alt="minimalist co-working space with long oak desks, ergonomic chairs, and large windows revealing a pine forest under soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFHXeiwQ2Yug6gucOuXoFELwLF9MHrhQG87pUtLNJYHQQw1Z_rR-A7y25FtDr3LiKEdW_4dto3sb7SYyWatmECmRMi98-4Y_EpO-UacA3n1Qm1dHPoVNBpvI6_kiKy5wg2jmVk85baghKxb_ywUOBGWZ51-54N5pgiXzg3883qQQ9QzBi-VTHky5Ti9D3drSTfKn1pmrDLtLk6KgyBnEzNrPR2DSmHgaDI4JQ7a4-NWXx6WBb4a7FF6mo5657iy8RXZVLZad58KQ1_" style="">
+</div>
+</div>
+<!-- Wellness -->
+<div class="grid md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-7">
+<img class="rounded-xl w-full h-[600px] object-cover editorial-shadow" data-alt="outdoor stone-lined infinity pool reflecting the Himalayan peaks during sunset, surrounded by lush green foliage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWbxsDQyyrZHl5T4DwfWr47z79OWTs_ROIHb8BzX3MuVfvUBQvi3rvbHY0wOJ0kN8R1_zh3FheYji0ceSk5nxthirBzR6vncZ4q4P0YqMH5tKQn1IRfMkKEt1mgED7A5U-FOQYp0Dc3Zh7j8GFQJMOBFZYC8jD7UcbXWT3qzPVUC6W4ItnmeE_JnJTjydc7x_ath_hX1zeWtpwXIkEt0e3B1DDGTsQMQl6Ja96PEVRHkT5cK7dj9FpB-7Tlmowns5YLwbQ5rIkRlnG" style="">
+</div>
+<div class="md:col-span-5">
+<span class="font-label text-secondary font-bold tracking-widest uppercase text-xs mb-4 block" style="">Restoration</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6 leading-tight" style="">The Wellness Pavilion.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8" style="">
+                    True productivity requires deep restoration. Our wellness wing features a heated infinity pool, yoga shalas with sunrise views, and spa treatments inspired by Ayurvedic traditions and mountain herbs.
+                </p>
+<button class="group flex items-center gap-4 text-primary font-bold" style="">
+<span class="font-label uppercase text-sm tracking-widest" style="">View Spa Menu</span>
+<span class="h-[1px] w-12 bg-primary transition-all group-hover:w-20"></span>
+</button>
 </div>
 </div>
 </section>
-<!-- The Offerings (Asymmetrical Bento-style) -->
-<section class="pb-48 px-6 max-w-7xl mx-auto">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
-<!-- Offering 1: Co-living -->
-<div class="md:col-span-7 group">
-<div class="relative overflow-hidden rounded-xl h-[500px] mb-8">
-<img alt="Ancestral Suites Interior" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="luxury bedroom interior with dark wood beam ceilings, large windows overlooking mountains, and minimalist organic linens in earth tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgr88Y6HYKhm7W7aTDUo_XsPYX6uSoleVNnk8k_5KnkXouUHq9TtesFZ-RyUKro082YythuMrgjFQ6Ut-jn-PWQ6FNr2VUxnH9JyaKrHELUkQnwDI2jRP7fsHsNOF8nXB2gKRRHuFTZ_hSzzbhuTb3e6QNOPGEJOAU9mWp6MMCnBoQWu66FLHlmJHwYBwGiOJqlaOSrC-q83MC2-DHfkYfUYlTH9Rt4p7Rjvksz4v4WFsSCRUt6dovPfLLlzbciN-miZ2_Y2a5FV6S"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-<div class="absolute bottom-10 left-10 text-white">
-<span class="label-sm uppercase tracking-widest mb-2 block">Living</span>
-<h3 class="font-headline text-3xl">Ancestral Suites</h3>
-</div>
-</div>
-<p class="text-tertiary max-w-lg font-light leading-relaxed">
-                    Private sanctuaries designed with Himalayan stone and cedarwood. A blend of heritage architecture and modern ergonomic comfort.
+<!-- Visionary Narrative (SEO Section) -->
+<section class="bg-surface-container-low py-32 px-6" id="ethos">
+<div class="max-w-4xl mx-auto text-center">
+<span class="material-symbols-outlined text-primary text-5xl mb-8" style="font-variation-settings: &quot;FILL&quot; 1;">landscape</span>
+<h3 class="font-headline text-4xl mb-12 italic" style="">"We are building more than a workspace; we are architecting a way of being."</h3>
+<div class="grid md:grid-cols-2 gap-12 text-left text-on-surface-variant leading-loose">
+<p class="" style="">
+                    Living.work Kasauli is the flagship manifestation of our philosophy. Located at 1,927 meters above sea level, it sits on land that has been part of a heritage estate for generations. We have worked with leading architects to ensure the footprint is minimal, but the impact on our residents is maximal.
+                </p>
+<p class="" style="">
+                    In an age of digital burnout, we offer a "Quiet Luxury" that isn't about gold leaf or velvet, but about space, time, and clarity. Kasauli’s unique micro-climate provides the perfect backdrop for long-term stays, creative retreats, and strategic summits that require a shift in perspective.
                 </p>
 </div>
-<!-- Offering 2: Co-working -->
-<div class="md:col-span-5 md:mt-24 group">
-<div class="relative overflow-hidden rounded-xl h-[400px] mb-8">
-<img alt="High-Altitude Hubs" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="modern glass office space perched on a mountain cliff with panoramic valley views and minimalist designer chairs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbF-LPguBgI9bHQWcquJd-i-YXGtGyazJL0dbWy-3W5VkSdAzo6HRrO8crBQJmWPJRBUpi_xkiuqkFP4xgg2H3dqi4WTK5tD0QI9goxMmlH3DeNPIryqJ4VZgx6BWJK_-zDqnJVLViZID77E924ss-xknl7iiyAPP3zBnfwiOXF4oVJwvPzSZHpxn-NoxPGLpu2E0ugTrcrELjsQnZkV75lCFJVaEDDUFtxujYTQngnE3QfPAgYkLoVPGIbOYiEz8cjMb4QdUx1iMh"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-<div class="absolute bottom-10 left-10 text-white">
-<span class="label-sm uppercase tracking-widest mb-2 block">Working</span>
-<h3 class="font-headline text-3xl">High-Altitude Hubs</h3>
 </div>
-</div>
-<p class="text-tertiary font-light leading-relaxed">
-                    Fiber-optic connectivity above the clouds. Silent zones and collaborative lounges inspired by the clarity of mountain air.
+</section>
+<!-- Membership CTA -->
+<section class="py-32 px-6" id="invite">
+<div class="max-w-7xl mx-auto bg-stone-900 rounded-xl overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-1/2 p-12 md:p-24 flex flex-col justify-center">
+<h2 class="font-headline text-4xl md:text-5xl text-white mb-8" style="">Members by Invitation.</h2>
+<p class="text-stone-400 text-lg mb-12" style="">
+                    To maintain the sanctity of the community, Living.work Kasauli operates on a selective membership basis. We seek builders, thinkers, and creators who value mutual respect and quiet focused work.
                 </p>
-</div>
-<!-- Offering 3: Wellness -->
-<div class="md:col-span-12 group mt-8">
-<div class="relative overflow-hidden rounded-xl h-[600px] mb-8">
-<img alt="Holistic Rituals" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="outdoor yoga platform made of stone at sunset with mist rolling over pine trees and a single brass singing bowl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwysFyYE-xzXJe9vATyiuac_NyMEnd77tHD2ARN55UIDqZZ6ZXvtqn7TIiqohWfEao62I7kTFkAB8LDouMOhRW__rN-wNtrDaU9oOJ1x0pLgPhwxGvHBu98P24pG3lMAW2S0ghvfCjfhObT0wEH2ZN7l-S3c3g2ocgKATQlkZFBdPEi7jLb8C7iXpZ6gyhzgc71bFaf4wAI_boyWWXdWt2N0vG9x_eKvVbZAShyLqJpXwPDWF6I9ukIcdJF6vGya4XGIa2QtrVNqDk"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-<div class="absolute bottom-12 left-12 text-white">
-<div class="flex items-center gap-4 mb-4">
-<span class="label-sm uppercase tracking-widest px-4 py-1 bg-white/20 backdrop-blur-md rounded-full">Coming Soon</span>
-</div>
-<span class="label-sm uppercase tracking-widest mb-2 block">Wellness</span>
-<h3 class="font-headline text-5xl">Holistic Rituals</h3>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary-container mt-1" style="">verified_user</span>
+<div>
+<h4 class="text-white font-bold" style="">Priority Access</h4>
+<p class="text-stone-500 text-sm" style="">Be the first to secure long-term suites for the 2027 opening.</p>
 </div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-<p class="text-tertiary text-lg font-light leading-relaxed">
-                        Realign your circadian rhythm with forest bathing, ayurvedic nutrition, and meditation sessions guided by the sounds of the valley.
-                    </p>
-<div class="flex justify-end items-end">
-<a class="text-primary group flex items-center gap-2 font-medium" href="#">
-                            Explore the Philosophy
-                            <span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
-</a>
 </div>
 </div>
+<div class="md:w-1/2 bg-stone-800 p-12 md:p-24">
+<form class="space-y-6">
+<div>
+<label class="block text-stone-400 text-xs font-label uppercase mb-2" style="">Full Name</label>
+<input class="w-full bg-stone-700/50 border-none rounded-lg text-white p-4 focus:ring-2 focus:ring-secondary-container" placeholder="E.g. Arjun Mehta" type="text">
+</div>
+<div>
+<label class="block text-stone-400 text-xs font-label uppercase mb-2" style="">Email Address</label>
+<input class="w-full bg-stone-700/50 border-none rounded-lg text-white p-4 focus:ring-2 focus:ring-secondary-container" placeholder="arjun@living.work" type="email">
+</div>
+<div>
+<label class="block text-stone-400 text-xs font-label uppercase mb-2" style="">Professional Focus</label>
+<select class="w-full bg-stone-700/50 border-none rounded-lg text-white p-4 focus:ring-2 focus:ring-secondary-container">
+<option>Entrepreneur / Founder</option>
+<option>Creative Professional</option>
+<option>Digital Nomad</option>
+<option>Researcher / Writer</option>
+</select>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-lg font-bold uppercase tracking-widest text-sm hover:bg-primary/90 transition-all" style="">Submit Invitation Request</button>
+<p class="text-stone-500 text-[10px] text-center uppercase tracking-tighter" style="">By submitting, you agree to our privacy policy and community guidelines.</p>
+</form>
 </div>
 </div>
 </section>
 <!-- Footer -->
-<footer class="w-full py-16 px-12 rounded-t-[3rem] bg-[#F6F3ED] dark:bg-stone-900">
-<div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+<footer class="bg-stone-100 dark:bg-stone-950 w-full pt-24 pb-12">
+<div class="max-w-7xl mx-auto px-12 flex flex-col md:flex-row justify-between items-center gap-8">
 <div class="flex flex-col items-center md:items-start gap-4">
-<div class="flex items-center gap-3">
-<img alt="Living.work Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0uiQDDprDKzyXFN-6bX0_HuBptNB0RK107oFiv8SBNWm66pSklTPCSE3oMLVjEUwa6hiJMEkWEDIH6_O_DFIWvGXUnHHhRCkyJrT1dNJPimM7k7GUIylhVHuCaFPFJF8AFk1FxFoOhK3N-Ep_ygWiDBnUGd3W8eFHm-Gvfu3h7SXWRWhu_cgvmIugS7RWi9mk3UfMmMTwxUrg_y7OebBjOBBozf-cLwPImCSvhBDpfkbQKRZ5aynLPvg5Sk7W7OOuv0joMlfBcTaWK4"/>
-<span class="text-xl font-serif italic text-[#536251]">Living.work</span>
+<img alt="Living.work Logo" class="h-10 w-auto object-contain mb-2" src="https://lh3.googleusercontent.com/aida/ADBb0uh3V21_lScN5TQ-d0Wr9aV1Iuumh6ETeRcuCJDMSeOGFBFsR-6fMdPQ5foYHES_Ao9VlU4fhq8Ul5rjEQGbWWcByKumqZUNyE3u-WEFfNbI2twv59LI2pNIwGqPBMDmI2BdDYTh-ocpWTVtPsMEGY4kDXI19LstNczdRm4Z-AEAYPP0oDYSHfBUJFCEK3zH_vO538xcqLFbqF2I62OnoUosO7CluUJRuKNOZc8vuN-ImrvYlQojJauvza8L_OtRb5rm9ZJhjfIp3A" style="">
+<p class="font-serif text-xl italic text-stone-800 dark:text-stone-100" style=""><br></p>
+<p class="font-sans text-sm tracking-wide uppercase text-stone-600 dark:text-stone-400" style="">© 2027 Living.work Sanctuary. Rooted in the Himalayas.</p>
 </div>
-<p class="font-sans text-[10px] tracking-widest uppercase opacity-60 text-[#536251] dark:text-[#8A9A86]">© 2027 Living.work. All rights reserved. The Modern Sanctuary.</p>
-</div>
-<div class="flex gap-12">
-<a class="font-sans text-[10px] tracking-widest uppercase opacity-60 text-[#536251] hover:text-[#904B36] transition-colors duration-300" href="#">Membership</a>
-<a class="font-sans text-[10px] tracking-widest uppercase opacity-60 text-[#536251] hover:text-[#904B36] transition-colors duration-300" href="#">Kasauli</a>
-<a class="font-sans text-[10px] tracking-widest uppercase opacity-60 text-[#536251] hover:text-[#904B36] transition-colors duration-300" href="#">Philosophy</a>
-<a class="font-sans text-[10px] tracking-widest uppercase opacity-60 text-[#536251] hover:text-[#904B36] transition-colors duration-300" href="#">Contact</a>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-sans text-sm tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors" href="#" style="">Privacy Policy</a>
+<a class="font-sans text-sm tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors" href="#" style="">Terms of Service</a>
+<a class="font-sans text-sm tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors" href="#" style="">Journal</a>
+<a class="font-sans text-sm tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors" href="#" style="">Contact Us</a>
 </div>
 <div class="flex gap-6">
-<a class="text-primary opacity-60 hover:opacity-100 transition-opacity" href="#"><span class="material-symbols-outlined">share</span></a>
-<a class="text-primary opacity-60 hover:opacity-100 transition-opacity" href="#"><span class="material-symbols-outlined">mail</span></a>
+<span class="material-symbols-outlined text-stone-400 hover:text-primary cursor-pointer transition-colors" style="">share</span>
+<span class="material-symbols-outlined text-stone-400 hover:text-primary cursor-pointer transition-colors" style="">language</span>
 </div>
 </div>
 </footer>
